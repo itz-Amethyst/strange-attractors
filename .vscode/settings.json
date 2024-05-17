@@ -1,0 +1,26 @@
+{
+    "cSpell.words": [
+        "aiocache",
+        "aioredis",
+        "autoflake",
+        "cachetools",
+        "dataframe",
+        "datashaders",
+        "devcontainer",
+        "devcontainers",
+        "isort",
+        "loguru",
+        "mypy",
+        "nopython",
+        "noqa",
+        "numba",
+        "venv"
+    ],
+    "python.REPL.enableREPLSmartSend": false,
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell"
+}

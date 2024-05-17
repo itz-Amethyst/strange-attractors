@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Dash Frontend",
+            "type": "python",
+            "request": "launch",
+            "module": "src",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}/frontend",
+            "python": "${workspaceFolder}/frontend/.venv-front/bin/python"
+        },
+        {
+            "name": "FastAPI",
+            "type": "python",
+            "request": "launch",
+            "module": "backend/src",
+            "justMyCode": true
+        }
+    ]
+}
