@@ -83,3 +83,7 @@ graph LR
 gh secret set WIF_PROVIDER -b"gh_federation_provider_name"
 gh secret set WIF_SERVICE_ACCOUNT -b"gh_federation_sa_email"
 ```
+
+## References
+- CupofGeo: [Attractors](https://examples.holoviz.org/attractors/attractors.html)
+- HoloViz: [Visual Data](https://examples.holoviz.org/attractors/attractors.html)
