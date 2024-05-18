@@ -56,6 +56,11 @@ class ColorMap(str, Enum):
     RAINBOW = "rainbow"
     CET_R1 = "CET_R1"
 
+    @classmethod
+    def list_all_values( cls ) -> List[str]:
+        """Returns all color map values as a list."""
+        return [color.value for color in cls]
+
 class BackgroundColor(str, Enum):
     BLACK = "black"
     WHITE = "white"
