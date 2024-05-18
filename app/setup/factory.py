@@ -4,7 +4,6 @@ from fastapi.responses import ORJSONResponse
 from app.config.settings import settings
 
 from app.setup.helper.middleware import setup_cors_middleware
-from app.setup.helper.static import serve_static_app
 from app.setup.route.main import setup_routers
 from app.config.logger.main import configure_logging
 from app.setup.helper.statistics import instrument_and_expose_metrics
@@ -40,7 +39,6 @@ def create_app():
 
     setup_routers(app)
     setup_cors_middleware(app)
-    serve_static_app(app)
     instrument_and_expose_metrics(app)
     return app
 

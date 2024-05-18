@@ -3,6 +3,8 @@
 *.tfstate
 *.tfstate.backup
 
+
+/Uploads
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
